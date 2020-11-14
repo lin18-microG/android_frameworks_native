@@ -135,7 +135,8 @@ public:
         OP_PHONE_CALL_MICROPHONE = 100,
         OP_PHONE_CALL_CAMERA = 101,
         OP_RECORD_AUDIO_HOTWORD = 102,
-        _NUM_OP = 103
+        OP_OTHER_SENSORS = 103,
+        _NUM_OP = 104
     };
 
     AppOpsManager();
